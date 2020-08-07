@@ -1,0 +1,68 @@
+git status
+git clone 
+git push
+git log
+
+procesdure to push the changes .
+
+
+git clone <your clone URL>
+cd <clone folder>
+git status
+git add .
+git commit -m"changed file 1"
+git push
+
+
+
+
+
+git config --global user.email "venuprasad.kalidas@gmail.com"
+
+kalidas@DESKTOP-3MFAPFH MINGW64 ~/Desktop/Gitrepo/gitclass (master)
+$ git config --global user.name "venuprasadkalidas123"
+
+kalidas@DESKTOP-3MFAPFH MINGW64 ~/Desktop/Gitrepo/gitclass (master)
+$ git commit -m "changed file 1"
+[master 7b18f7b] changed file 1
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+kalidas@DESKTOP-3MFAPFH MINGW64 ~/Desktop/Gitrepo/gitclass (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 151.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/venuprasadkalidas123/gitclass.git
+   8c0e6ef..7b18f7b  master -> master
+   
+kalidas@DESKTOP-3MFAPFH MINGW64 ~/Desktop/Gitrepo/gitclass (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+kalidas@DESKTOP-3MFAPFH MINGW64 ~/Desktop/Gitrepo/gitclass (master)
+$ git log
+commit 7b18f7b54b535e7507d2a63a0d8c03e8b98f6684 (HEAD -> master, origin/master, origin/HEAD)
+Author: venuprasadkalidas123 <venuprasad.kalidas@gmail.com>
+Date:   Fri Aug 7 19:10:23 2020 +0530
+
+    changed file 1
+
+commit 8c0e6ef02cb0129d87acab4fcdb49e3994708e76
+Author: ARCHEPALLI BHANU PRAKASH <abprakash405@gmail.com>
+Date:   Thu Aug 6 19:26:38 2020 +0530
+
+    file 1 modified with rakesh name
+
+commit 22f4f0109e43a2662c11d1f84514bfd5e2a6486f
+Author: ARCHEPALLI BHANU PRAKASH <abprakash405@gmail.com>
+Date:   Thu Aug 6 19:23:44 2020 +0530
+
+    this is first commit
+   
+   
